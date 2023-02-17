@@ -1,0 +1,42 @@
+p {
+	color: red;
+}
+.header {
+	color: green;
+}
+.text {
+	color: blue;
+}
+#section1 {
+	color: yellow;
+}
+#section2 {
+	color: green;
+}
+div.paragraph {
+	color: blue;
+}
+.text .text.paragraph {
+	color: red;
+}
+.text.paragraph {
+	color: yellow;
+}
+
+[class*="text"] {
+	color: yellow;
+}
+[title="Меню магазина1"] {
+	color: rgb(146, 11, 33);
+}
+.paragraph3,
+.text3 {
+	color: green;
+}
+
+.text > .text-2 {
+	color: blue;
+}
+.text-2 ~ div {
+	color: yellow;
+}
